@@ -1,0 +1,11 @@
+/* Optional tweaks beyond Tailwind */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #facc15; /* Tailwind yellow-400 */
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #1f2937; /* Tailwind gray-800 */
+}

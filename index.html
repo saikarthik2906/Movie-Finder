@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Finder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center">
+
+  <!-- Header -->
+  <header class="w-full bg-gray-800 p-4 text-center shadow-lg">
+    <h1 class="text-3xl font-bold text-yellow-400">🎬 Movie Finder</h1>
+  </header>
+
+  <!-- Search Bar -->
+  <div class="mt-8 w-full max-w-xl flex justify-center">
+    <input 
+      id="searchInput" 
+      type="text" 
+      placeholder="Search for a movie or show..." 
+      class="w-3/4 p-3 rounded-l-xl outline-none text-gray-900"
+    />
+    <button 
+      id="searchBtn" 
+      class="bg-yellow-400 text-gray-900 px-4 rounded-r-xl font-semibold hover:bg-yellow-300">
+      Search
+    </button>
+  </div>
+
+  <!-- Results -->
+  <div id="results" class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-8 w-full max-w-6xl"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+    <div class="bg-gray-800 rounded-2xl p-6 w-96 relative">
+      <button id="closeModal" class="absolute top-2 right-3 text-gray-400 text-2xl">&times;</button>
+      <img id="modalPoster" class="w-full rounded-xl mb-4" />
+      <h2 id="modalTitle" class="text-2xl font-bold mb-2"></h2>
+      <p id="modalInfo" class="text-sm text-gray-400 mb-3"></p>
+      <p id="modalPlot" class="text-gray-300 mb-3"></p>
+      <button id="favBtn" class="w-full bg-yellow-400 text-gray-900 py-2 rounded-xl font-semibold hover:bg-yellow-300">
+        ❤️ Add to Favorites
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
