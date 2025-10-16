@@ -1,4 +1,4 @@
-const API_KEY = '283a964cdaf72b10272eb489c02a0f0e';
+const API_KEY = 'My api key form 👉 https://developer.themoviedb.org';
 const resultsDiv = document.getElementById('results');
 const searchBtn = document.getElementById('searchBtn');
 const searchInput = document.getElementById('searchInput');
