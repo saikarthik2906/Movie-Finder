@@ -20,13 +20,15 @@ Built using **HTML, Tailwind CSS, JavaScript, and the TMDB API**, the app delive
 
 ## 📁 Project Structure
 
-```bash
+
 movie-finder/
 │
 ├── index.html        # Main HTML page with search and results
 ├── style.css         # Optional custom CSS styling
 ├── app.js            # TMDB API logic, modal handling & favorites
 └── README.md         # Project documentation
+
+
 🚀 Features
 🔍 Movie & TV Search
 Search movies and TV shows using the TMDB API
