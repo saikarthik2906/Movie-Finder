@@ -1,4 +1,3 @@
-```markdown
 # 🎬 Movie / TV Show Finder App
 
 A modern and visually appealing web application to search for **movies and TV shows**, explore detailed information, and save favorites locally.
@@ -28,176 +27,157 @@ movie-finder/
 ├── style.css         # Optional custom CSS styling
 ├── app.js            # TMDB API logic, modal handling & favorites
 └── README.md         # Project documentation
+🚀 Features
+🔍 Movie & TV Search
+Search movies and TV shows using the TMDB API
 
-```
+Dynamic search results rendering
 
----
+Fast and responsive UI updates
 
-## 🚀 Features
+🎞️ Detailed Information Modal
+Click View Details to see:
 
-### 🔍 Movie & TV Search
+Poster image
 
-* Search movies and TV shows using the TMDB API
-* Dynamic search results rendering
-* Fast and responsive UI updates
+Full movie/show title
 
----
+Genres
 
-### 🎞️ Detailed Information Modal
+Rating
 
-Click **View Details** to see:
+Release year
 
-* Poster image
-* Full movie/show title
-* Genres
-* Rating
-* Release year
-* Overview / plot summary
+Overview / plot summary
 
----
+❤️ Favorites System
+Save favorite movies/shows
 
-### ❤️ Favorites System
+Uses browser localStorage
 
-* Save favorite movies/shows
-* Uses browser `localStorage`
-* Persistent data even after page refresh
+Persistent data even after page refresh
 
----
+📈 Trending Content
+Displays trending movies and TV shows on initial page load
 
-### 📈 Trending Content
+Helps users discover popular entertainment content instantly
 
-* Displays trending movies and TV shows on initial page load
-* Helps users discover popular entertainment content instantly
+🎨 UI & UX
+✨ Modern Interface
+Clean responsive design
 
----
+Tailwind CSS-powered layout
 
-## 🎨 UI & UX
+Smooth hover effects and transitions
 
-### ✨ Modern Interface
-
-* Clean responsive design
-* Tailwind CSS-powered layout
-* Smooth hover effects and transitions
-
-### 📱 Fully Responsive
-
+📱 Fully Responsive
 Optimized for:
 
-* Desktop
-* Tablet
-* Mobile devices
+Desktop
 
----
+Tablet
 
-## ⚙️ Setup Instructions
+Mobile devices
 
-### 1️⃣ Clone Repository
-
-```bash
+⚙️ Setup Instructions
+1️⃣ Clone Repository
+Bash
 git clone <your-repo-url>
 cd movie-finder
-
-```
-
-### 2️⃣ Open the App
-
+2️⃣ Open the App
 Simply open:
 
-```bash
+Bash
 index.html
-
-```
-
 in your browser.
 
 No backend or server setup required.
 
----
+🔑 TMDB API Setup
+Create a Free API Key
+Visit: https://developer.themoviedb.org
 
-## 🔑 TMDB API Setup
+Sign up and create an API key
 
-### Create a Free API Key
+Open app.js and replace:
 
-1. Visit: [https://developer.themoviedb.org](https://developer.themoviedb.org)
-2. Sign up and create an API key
-3. Open `app.js` and replace:
-
-```javascript
+JavaScript
 const API_KEY = 'YOUR_TMDB_API_KEY';
-
-```
-
-4. Save and refresh the browser
+Save and refresh the browser
 
 Your app is ready to use 🚀
 
----
+📂 File Descriptions
+index.html
+Main application UI
 
-## 📂 File Descriptions
+Search bar
 
-### `index.html`
+Results grid
 
-* Main application UI
-* Search bar
-* Results grid
-* Details modal
+Details modal
 
-### `style.css`
+style.css
+Optional custom styles
 
-* Optional custom styles
-* Scrollbars
-* Additional animations/customization
+Scrollbars
 
-### `app.js`
+Additional animations/customization
 
+app.js
 Handles:
 
-* Fetching TMDB API data
-* Dynamic rendering
-* Modal interactions
-* Favorites storage
-* Trending content loading
+Fetching TMDB API data
 
----
+Dynamic rendering
 
-## 💡 Optional Improvements
+Modal interactions
 
-* Add dedicated Favorites Page
-* Dark / Light mode toggle
-* Search pagination
-* Movie trailers using YouTube/TMDB videos API
-* Genre filtering
-* Deployment on Netlify or Vercel
+Favorites storage
 
----
+Trending content loading
 
-## 🎯 Purpose of the Project
+💡 Optional Improvements
+Add dedicated Favorites Page
 
+Dark / Light mode toggle
+
+Search pagination
+
+Movie trailers using YouTube/TMDB videos API
+
+Genre filtering
+
+Deployment on Netlify or Vercel
+
+🎯 Purpose of the Project
 This project demonstrates:
 
-* REST API integration
-* Dynamic frontend rendering
-* LocalStorage usage
-* Responsive UI development
-* Modal-based interactions
-* Real-time search experiences
+REST API integration
+
+Dynamic frontend rendering
+
+LocalStorage usage
+
+Responsive UI development
+
+Modal-based interactions
+
+Real-time search experiences
 
 Perfect for:
 
-* Frontend portfolio projects
-* API integration practice
-* JavaScript learning
-* Entertainment dashboard demos
-* UI/UX showcases
+Frontend portfolio projects
 
----
+API integration practice
 
-## 👨‍💻 Author
+JavaScript learning
 
-**Sai Karthik**
+Entertainment dashboard demos
 
-* 🌐 Live App: [https://moviefinder123.netlify.app/](https://moviefinder123.netlify.app/)
+UI/UX showcases
 
-```
+👨‍💻 Author
+Sai Karthik
 
-```
+🔗 Live Demo: https://moviefinder123.netlify.app/
