@@ -6,6 +6,9 @@ Built using **HTML, Tailwind CSS, JavaScript, and the TMDB API**, the app delive
 
 🔗 **Live Demo:** [https://moviefinder123.netlify.app/](https://moviefinder123.netlify.app/)
 
+<iframe src="https://moviefinder123.netlify.app/"></iframe>
+
+
 ---
 
 ## 🛠 Tech Stack
